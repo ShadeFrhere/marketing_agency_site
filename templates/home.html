@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero fade-up">
+    <h1>Grow Your Business With Smart Digital Marketing</h1>
+    <p>We help brands increase traffic, generate leads, and boost sales.</p>
+    <button onclick="location.href='/contact'">Get Free Consultation</button>
+</section><section class="founder fade-up">
+    <div class="founder-content">
+        <img src="{{ url_for('static', filename='ceo.jpg') }}" alt="Kartik Malhotra">
+        <div class="founder-text">
+            <h2>Kartik Malhotra</h2>
+            <h4>Founder & Digital Marketing Entrepreneur</h4>
+            <p>
+                I’m Kartik Malhotra, a passionate digital entrepreneur working since 2020.
+                I help businesses grow online with innovative marketing strategies
+                and result-driven campaigns.
+            </p>
+        </div>
+    </div>
+</section><section class="portfolio fade-up">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio-cards">
+        <div class="card">
+            <h3>SEO Campaigns</h3>
+            <p>Helping clients rank on Google and boost organic traffic.</p>
+        </div>
+
+        <div class="card">
+            <h3>Facebook Ads</h3>
+            <p>High-performing ad campaigns that increase sales.</p>
+        </div>
+
+        <div class="card">
+            <h3>Social Media Branding</h3>
+            <p>Building strong brand presence across social platforms.</p>
+        </div>
+
+        <div class="card">
+            <h3>Website Design</h3>
+            <p>Modern websites designed to convert visitors into customers.</p>
+        </div>
+    </div>
+</section>
+<section class="skills fade-up">
+    <h2>Our Expertise</h2>
+    <div class="skills-cards">
+        <div class="skill-card">
+            <h3>SEO Optimization</h3>
+            <p>Increase your visibility on Google and drive organic traffic.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Paid Advertising</h3>
+            <p>High-converting campaigns on Google & Facebook Ads.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Social Media Marketing</h3>
+            <p>Grow your audience and engagement across platforms.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Website Design</h3>
+            <p>Modern, fast, and conversion-focused websites.</p>
+        </div>
+    </div>
+</section>
+<section class="stats fade-up">
+    <div class="stats-container">
+        <div class="stat-card">
+            <h3>100+</h3>
+            <p>Clients Served</p>
+        </div>
+        <div class="stat-card">
+            <h3>25+</h3>
+            <p>Team Members</p>
+        </div>
+        <div class="stat-card">
+            <h3>100,000+</h3>
+            <p>Leads Generated</p>
+        </div>
+        <div class="stat-card">
+            <h3>1</h3>
+            <p>Agency Under Kartik Malhotra</p>
+        </div>
+    </div>
+</section><section class="testimonials fade-up">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-cards">
+        <div class="testimonial-card fade-up">
+            <p>"Working with Kartik’s agency transformed our online presence. Leads doubled in 3 months!"</p>
+            <strong>— Startup Founder</strong>
+        </div>
+        <div class="testimonial-card fade-up">
+            <p>"Professional team, great communication, and results-driven strategies!"</p>
+            <strong>— Ecommerce Owner</strong>
+        </div>
+        <div class="testimonial-card fade-up">
+            <p>"The campaigns were excellent. Our ROI improved dramatically." </p>
+            <strong>— Local Business</strong>
+        </div>
+    </div>
+</section>
+<section class="partners fade-up">
+    <h2>Trusted by Leading Brands</h2>
+    <div class="partner-logos">
+        <img src="{{ url_for('static', filename='marketing_agencystaticclient1.jpg') }}" alt="Client 1">
+        <img src="{{ url_for('static', filename='Screenshot 2025-09-19 034452.png') }}" alt="Client 2">
+        <img src="{{ url_for('static', filename='Screenshot 2025-09-15 185100.png') }}" alt="Client 3">
+        <img src="{{ url_for('static', filename='Screenshot 2025-09-15 194725.png') }}" alt="Client 4">
+        <img src="{{ url_for('static', filename='Screenshot 2025-09-19 031449.png') }}" alt="Client 5">
+    </div>
+</section>
+
+<section class="cta-contact fade-up">
+    <div class="cta-container">
+        <h2>Ready to Grow Your Business?</h2>
+        <p>Join 100+ clients who have scaled with our digital marketing strategies. Let’s work together to generate leads, increase traffic, and boost sales!</p>
+        <button onclick="location.href='/contact'">Book a Free Consultation</button>
+    </div>
+</section>
+<div class="section-separator"></div>
+<section class="cta-contact fade-up">
+    ...
+</section>
+
+
+{% endblock %}
+<section class="fade-up">
+    <h2>What Our Clients Say</h2>
+    <div class="services">
+        <div class="card fade-up">
+            <p>"Our leads doubled in just 2 months!"</p>
+            <strong>— Startup Founder</strong>
+        </div>
+        <div class="card fade-up">
+            <p>"Professional team and excellent communication."</p>
+            <strong>— Ecommerce Owner</strong>
+        </div>
+        <div class="card fade-up">
+            <p>"Best marketing investment we’ve made."</p>
+            <strong>— Local Business</strong>
+        </div>
+    </div>
+</section>
+<button onclick="location.href='/contact'">Get Free Consultation</button>
+<section class="hero fade-up">
+    ...
+</section>
+
+<div class="section-separator"></div> <!-- separator -->
+
+<section class="founder fade-up">
+    ...
+</section>
+
+<div class="section-separator"></div> <!-- separator -->
+
+<section class="portfolio fade-up">
+    ...
+</section>
+<div class="skill-card">
+    <h3>🔍 SEO Optimization</h3>
+    <p>Increase your visibility on Google and drive organic traffic.</p>
+</div>
+
+<div class="skill-card">
+    <h3>💰 Paid Advertising</h3>
+    <p>High-converting campaigns on Google & Facebook Ads.</p>
+</div>
+
+<div class="skill-card">
+    <h3>📱 Social Media Marketing</h3>
+    <p>Grow your audience and engagement across platforms.</p>
+</div>
+
+<div class="skill-card">
+    <h3>🌐 Website Design</h3>
+    <p>Modern, fast, and conversion-focused websites.</p>
+</div>
+<div class="section-separator"></div>
+<section class="stats fade-up">
+    ...
+</section>
